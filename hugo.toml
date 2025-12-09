@@ -1,6 +1,6 @@
 baseURL = "https://yada.quest/"
 languageCode = "en-us"
-title = "Liora"
+title = ""
 
 # Theme Config
 theme = "hugo-saasify-theme"
