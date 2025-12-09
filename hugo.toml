@@ -58,7 +58,7 @@ paginatePath = "page"
   
   # Footer Configuration
   [params.footer]
-    column_1_title = "Features"
+    column_1_title = "Services"
     column_2_title = "COMPANY"
     column_3_title = "LEGAL"
   
@@ -188,28 +188,33 @@ paginatePath = "page"
     name = "Blog"
     url = "/blog"
     weight = 3
-  [[menu.main]]
-    name = "Company"
-    weight = 4
-    [menu.main.params]
-      has_submenu = true
-      submenu = [
-        { name = "About Us", url = "/company/" },
-        { name = "Careers", url = "/careers/" }
-      ]
+   [[menu.main]]
+     name = "About "
+     url = "/company"
+     weight = 4
+
+  #[[menu.main]]
+  #  name = "Company"
+  #  weight = 4
+  #  [menu.main.params]
+  #    has_submenu = true
+  #    submenu = [
+  #      { name = "About Us", url = "/company/" },
+  #      { name = "Careers", url = "/careers/" }
+  #    ]
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
-    name = "Performance"
-    url = "/features/performance/"
+    name = "GraphicDesign"
+    url = "/features/graphicdesign/"
     weight = 1
   [[menu.footer_column_1]]
-    name = "Design System"
-    url = "/features/design-system/"
+    name = "Website Development"
+    url = "/features/websitedevelopment/"
     weight = 2
   [[menu.footer_column_1]]
-    name = "Developer Experience"
-    url = "/features/developer-experience/"
+    name = "Digital Marketing"
+    url = "/features/digitalmarketing/"
     weight = 3
 
   # Footer Column 2 Menu
