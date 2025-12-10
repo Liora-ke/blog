@@ -1,8 +1,8 @@
 ---
-title: "Developer Experience"
+title: "Digital Marketing"
 description: "Enjoy a seamless development experience with hot reload, component-based architecture, and clean, maintainable code."
 layout: "feature"
-badge: "Development"
+badge: "Marketing"
 badgeColor: "#16a34a"
 features:
   - title: "Component System"

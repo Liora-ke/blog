@@ -104,7 +104,7 @@ paginatePath = "page"
   [params.blog]
     enable = true
     title = "Latest Articles"
-    subtitle = "Learn more about web development and best practices"
+    subtitle = "Read Some of Our Published Articles"
     
     # Blog CTA configuration
     [params.blog.cta]
