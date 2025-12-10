@@ -6,13 +6,13 @@ description: "Learn about our mission, leadership team, and the investors backin
 
 {{< section-container class="bg-gradient-to-b from-blue-50 via-blue-50 to-white pt-20 pb-32" >}}
     <div class="text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-6">Building the Future of SaaS</h1>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Building Local Businesses</h1>
         <p class="text-xl text-gray-600 mb-16">We're on a mission to revolutionize how businesses operate in the digital age</p>
         <div class="max-w-3xl mx-auto bg-white rounded-xl shadow-sm p-8">
             <h2 class="text-3xl font-bold mb-4">Our Mission</h2>
             <p class="text-xl text-gray-600">
-                We're dedicated to empowering businesses with innovative SaaS solutions that drive growth and efficiency. Our platform combines cutting-edge technology with intuitive design to solve complex business challenges.
-            </p>
+            Our developers utilise cutting edge techniques to ensure that your businesses online presence is superb.
+           </p>
         </div>
     </div>
 {{< /section-container >}}
@@ -21,31 +21,31 @@ description: "Learn about our mission, leadership team, and the investors backin
     <div class="max-w-6xl mx-auto">
         <h2 class="text-3xl font-bold text-center mb-12">Leadership Team</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {{< team-member 
+            <!--{{< team-member 
                 name="Sarah Johnson"
                 title="Chief Executive Officer"
                 image="/images/company/exec-1.svg"
                 linkedin="#"
-            >}}
+            >}}-->
             {{< team-member 
-                name="Michael Chen"
+                name="Michael "
                 title="Chief Technology Officer"
                 image="/images/company/exec-2.svg"
-                linkedin="#"
+                
             >}}
-            {{< team-member 
+           <!-- {{< team-member 
                 name="Emily Rodriguez"
                 title="Chief Product Officer"
                 image="/images/company/exec-3.svg"
                 linkedin="#"
-            >}}
+            >}}--> 
         </div>
     </div>
 {{< /section-container >}}
 
 {{< section-container class="py-20" >}}
     <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">Backed by World-Class Investors</h2>
+        <h2 class="text-3xl font-bold text-center mb-12">Providing Service To Global Clients</h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
             {{< investor-logo name="Sequoia Capital" image="/images/company/investor-1.svg" >}}
             {{< investor-logo name="Andreessen Horowitz" image="/images/company/investor-2.svg" >}}
@@ -62,17 +62,17 @@ description: "Learn about our mission, leadership team, and the investors backin
             {{< value-card 
                 title="Innovation First"
                 icon="lightbulb"
-                description="We constantly push boundaries and embrace new technologies to solve complex challenges."
+                description="We push ideas to the limits with modern techniques, enabling our customers to grow with the changing markets"
             >}}
             {{< value-card 
                 title="Customer Success"
                 icon="users"
-                description="Our customers' success is our success. We're committed to delivering exceptional value."
+                description="The success of our clients is our first and foremost priority"
             >}}
             {{< value-card 
                 title="Transparency"
                 icon="eye"
-                description="We believe in open communication and building trust through transparency."
+                description="We ensure that most of our work processes are documented for the client. We also open source projects that might be of value to the community"
             >}}
         </div>
     </div>
@@ -81,10 +81,10 @@ description: "Learn about our mission, leadership team, and the investors backin
 {{< section-container class="py-20" >}}
     <div class="max-w-6xl mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-            {{< stat number="2015" label="Founded" >}}
-            {{< stat number="200+" label="Team Members" >}}
-            {{< stat number="10k+" label="Customers" >}}
-            {{< stat number="50M+" label="Annual Revenue" >}}
+            {{< stat number="2025" label="Founded" >}}
+            {{< stat number="2+" label="Team Members" >}}
+            {{< stat number="10+" label="Customers" >}}
+            {{< stat number="50k+" label="Handled Requests" >}}
         </div>
     </div>
 {{< /section-container >}}
